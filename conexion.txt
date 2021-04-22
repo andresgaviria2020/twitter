@@ -1,0 +1,1 @@
+mongodb+srv://admin:<password>@twitter.8ekaz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
