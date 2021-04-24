@@ -3,7 +3,7 @@ package bd
 import (
 	"context"
 	"time"
-	"twitter/twitter/models"
+	"twitter/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 )

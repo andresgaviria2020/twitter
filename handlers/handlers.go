@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"twitter/twitter/middlew"
-	"twitter/twitter/routers"
+	"twitter/middlew"
+	"twitter/routers"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"

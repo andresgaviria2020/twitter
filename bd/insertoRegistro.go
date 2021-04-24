@@ -3,8 +3,8 @@ package bd
 import (
 	"context"
 	"time"
-	"twitter/twitter/models"
-	"twitter/twitter/utilidades"
+	"twitter/models"
+	"twitter/utilidades"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

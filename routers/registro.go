@@ -3,8 +3,8 @@ package routers
 import (
 	"encoding/json"
 	"net/http"
-	"twitter/twitter/bd"
-	"twitter/twitter/models"
+	"twitter/bd"
+	"twitter/models"
 )
 
 func Registro(w http.ResponseWriter, r *http.Request) {

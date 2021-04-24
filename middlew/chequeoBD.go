@@ -2,7 +2,7 @@ package middlew
 
 import (
 	"net/http"
-	"twitter/twitter/bd"
+	"twitter/bd"
 )
 
 func ChequeoBD(next http.HandlerFunc) http.HandlerFunc {
