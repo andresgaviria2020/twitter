@@ -3,13 +3,14 @@ package bd
 import (
 	"context"
 	"log"
+	"os"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
 var MongoCN = ConectarBD()
-var clientOptions = options.Client().ApplyURI("url_conection")
+var clientOptions = options.Client().ApplyURI(os.Getenv("CONNECTION"))
 
 /*ConcectarBD */
 func ConectarBD() *mongo.Client {
